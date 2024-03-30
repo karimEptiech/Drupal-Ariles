@@ -1,0 +1,52 @@
+# Ignore les fichiers de configuration de l'environnement local
+/sites/default/settings.local.php
+
+# Ignore les fichiers de configuration générés par Drupal
+/sites/default/settings.php
+/sites/default/files/*
+/sites/default/files/.htaccess
+
+# Ignore les répertoires de modules téléchargés
+/modules/contrib/
+/modules/custom/
+
+# Ignore les répertoires de thèmes téléchargés
+/themes/contrib/
+/themes/custom/
+
+# Ignore les fichiers de sauvegarde créés par l'éditeur de texte ou d'autres outils
+*.bak
+*.swp
+*.swo
+
+# Ignore les fichiers temporaires
+*.tmp
+*.temp
+*.log
+
+# Ignore les fichiers de configuration d'IDE
+.idea/
+
+# Ignore les fichiers de cache et les répertoires générés
+/sites/*/files/
+/sites/*/private/
+/sites/*/files/css/
+/sites/*/files/js/
+/sites/*/files/php/
+
+# Ignore les fichiers générés par Drush
+/drush/contrib/
+/drush/*.aliases.drushrc.php
+/drush/*.yml
+
+# Ignore les fichiers de déploiement
+/deploy/
+/deploy/*
+
+# Ignore les fichiers spécifiques à votre environnement
+/.env
+/.env.local
+
+# Ignore les fichiers de sauvegarde
+*.sql.gz
+*.sql.zip
